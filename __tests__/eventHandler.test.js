@@ -24,11 +24,11 @@ describe('event handler tests', () => {
         expect(setTimeout).toHaveBeenCalled();
     })
     test('delivered handler test',() => {
-        event.emit('delivered',order)
+        event.emit('dileverd',order)
         expect(consoleSpy).toHaveBeenCalled();
     })
     test('in-transit handler test',() => {
-        event.emit('intransit',order)
+        event.emit('in-transit',order)
         expect(setTimeout).toHaveBeenCalled();
     })
 })
