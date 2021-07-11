@@ -18,13 +18,13 @@ Today, we begin the first of a 4-Phase build of the CAPS system, written in Node
 - GitHub actions link:
 
 
-
+https://github.com/Batoolayyad/event/actions
 
 
 
 - Pull Rrequest link:
 
-
+https://github.com/Batoolayyad/event/pull/1
 
 
 ## UML
