@@ -4,11 +4,12 @@
 name: Node.js CI
 
 on:
+  check_suite:
+    types: [rerequested, completed]
   push:
     branches: [ main ]
   pull_request:
     branches: [ main ]
-
 jobs:
   build:
 
@@ -29,3 +30,4 @@ jobs:
     - run: npm ci
     - run: npm run build --if-present
     - run: npm test
+    
