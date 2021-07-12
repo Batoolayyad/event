@@ -4,8 +4,6 @@
 name: Node.js CI
 
 on:
-  check_suite:
-    types: [rerequested, completed]
   push:
     branches: [ main ]
   pull_request:
